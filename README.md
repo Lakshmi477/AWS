@@ -92,3 +92,16 @@ AWS services that require or support public IPv4 include:
 --- 
 ## **Conclusion**
 Amazon VPC and AWS networking services provide flexibility to build secure and scalable cloud networks, utilizing both IPv4 and IPv6 addressing to meet modern requirements.
+
+VPC Endpoints:
+Vpc endpoints enables to customer to connect privately to the AWS servives and VPC endpoint services with AWS private link.
+VPC doesn't require public IP
+They are 2 types of endpoints
+1.Interface endpoints
+2.gateway endpoints
+Interface endpoints:
+It enables private acess to services provided by AWS without travsing the public network.They are used in Elastic Network interface(ENI) in VPC.
+gateway endpoints:
+It Provides the route table entry to route traffic to s3 over private networks.
+It supoorts only S3 and DynamoDB
+
