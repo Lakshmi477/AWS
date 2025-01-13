@@ -98,6 +98,14 @@ Vpc endpoints enables to customer to connect privately to the AWS servives and V
 VPC doesn't require public IP
 They are 2 types of endpoints
 1.Interface endpoints
+**AWS Networking:**
+
+
+
+
+
+
+
 2.gateway endpoints
 Interface endpoints:
 It enables private acess to services provided by AWS without travsing the public network.They are used in Elastic Network interface(ENI) in VPC.
